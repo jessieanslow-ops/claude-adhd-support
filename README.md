@@ -6,7 +6,7 @@ This isn't an app. It's a set of documents that teach Claude who you are, how yo
 
 ## Who this is for
 
-Anyone with ADHD (diagnosed or suspected) who wants to use Claude as a daily support tool. Works with **Claude.ai** (free or Pro) or **Claude Code**.
+Anyone with ADHD (diagnosed or suspected) who wants to use Claude as a daily support tool. Works with **Claude.ai** (free tier and up) or **Claude Code** (Pro, Max, or API).
 
 No technical knowledge required for the basic setup.
 
@@ -20,7 +20,7 @@ You give Claude three things:
 
 Claude reads these at the start of every conversation. Over time, it learns your patterns and gets better at supporting you. Not because the AI is magic, but because the files you build together capture what works.
 
-## Getting started (Claude.ai)
+## Getting started
 
 1. Create a new **Project** in Claude.ai
 2. Paste the contents of `01-essential/project-instructions.md` into your project's **Instructions** box, leaving the bracketed sections as they are
@@ -31,43 +31,64 @@ Claude will read the instructions, see the gaps, and interview you to fill them 
 
 At the end of each conversation, ask Claude to update your next-session and patterns files. Copy the updates back into your project knowledge. Each session gets smarter.
 
-## Getting started (Claude Code)
-
-1. Create a folder for your support system
-2. Copy `03-advanced/CLAUDE.md` and the template files you want into it
-3. Fill in the bracketed sections
-4. Run Claude Code from that folder: it reads CLAUDE.md automatically
-
-Claude Code can read and write your files directly, so updates happen in place. No copy-pasting between sessions.
+**Want automatic persistence?** Connect Notion (free) as an MCP connector in your project settings. Claude writes directly to Notion pages instead of handing you text to copy. See the Build On It tier below.
 
 ## The tiers
 
 ### 01-essential (start here)
 
+Claude learns who you are. Three files, one conversation to set up.
+
 | File | Who fills it in | What it does |
 |------|----------------|-------------|
-| `project-instructions.md` | You | Core identity and rules. Tells Claude who you are and how to support you. |
+| `project-instructions.md` | You (via interview) | Core identity and rules. Tells Claude who you are and how to support you. |
 | `next-session.md` | Claude | Handoff notes between conversations. What's in flight, what's coming up. |
 | `patterns.md` | Claude | Where Claude learns your rhythms. Grows over time into a picture of how you actually live. |
 
-### 02-build-on-it (add when ready)
+### 02-build-on-it (connect and automate)
+
+Claude acts for you. Connect free MCP tools and Claude handles persistence, tasks, and schedule awareness without you maintaining anything.
+
+**Connect these (all free):**
+- **Notion** - Claude reads and writes your support documents directly. No copy-pasting between sessions.
+- **Todoist** - Claude adds tasks with due dates. You get push notifications. You never open Todoist yourself.
+- **Google Calendar** - Claude checks what's on today and what's coming up.
+
+**Skills (add to your project instructions):**
+
+| File | What it does |
+|------|-------------|
+| `orient-skill.md` | Silent session start. Reads your context, adapts to energy, saves throughout without asking. Handles session close. |
+| `briefing-skill.md` | Your daily briefing. Friction-ordered, energy-adaptive, 200 words max. Ask for it or set it to run automatically. |
+| `roundup-skill.md` | End-of-day review. Updates patterns, tasks, and session notes. Carries tomorrow forward. |
+
+The three skills form a day cycle: orient (silent arrival) -> briefing (what's today) -> roundup (capture and close).
+
+### 03-build-on-it-plus (deeper relationship)
+
+More context, more nuance. All files work as Notion pages or local markdown.
 
 | File | Who fills it in | What it does |
 |------|----------------|-------------|
 | `calendar-context.md` | Both | What events actually mean for your life: not just dates, but logistics and knock-on effects. |
-| `todo.md` | Both | Running task list with gentle escalation. Items get nudged, not nagged. |
-
-### 03-advanced (for power users)
-
-| File | Who fills it in | What it does |
-|------|----------------|-------------|
-| `CLAUDE.md` | You | Full CLAUDE.md for Claude Code users. The complete system. |
+| `todo.md` | Both | Running task list with gentle escalation (nudge at 3 days, flag at 7, force decision at 14). |
+| `CLAUDE.md` | You | Full system instructions for Claude Code users. |
 | `identity.md` | Claude | Space for Claude to develop its own understanding of the relationship. |
 | `craft-and-learnings.md` | Claude | What Claude has learned about communicating with you specifically. |
 | `applied-research.md` | Claude | How ADHD research translates into practical support changes. |
-| `briefer-prompt.md` | Reference | Instructions for generating a structured morning briefing. |
+| `briefer-prompt.md` | Reference | Detailed instructions for generating morning briefings. |
 | `briefing-example.md` | Reference | Annotated sample briefing showing every design choice. |
 | `recorder-prompt.md` | Reference | End-of-day review process for updating all files. |
+
+### 04-advanced (coming soon)
+
+Always-on system. Claude reaches out to you, not waiting for you to show up.
+
+This tier covers: running Claude Code on a dedicated machine (old laptop, VPS), cron jobs triggering morning briefings and evening roundups automatically, and a messaging layer outside Claude.ai (Signal, Telegram, Matrix) so the system can contact you directly.
+
+The jump from "Claude helps when I show up" to "Claude is running whether I show up or not."
+
+*A separate guide for this tier will be released at a later date.*
 
 ## The principles
 
@@ -77,7 +98,7 @@ These are baked into every template:
 - **Quick wins first.** Dopamine before discipline. The hardest thing is never at the top.
 - **Effort-tracked.** "You did the thing" matters more than "you did the thing perfectly."
 - **Energy-adaptive.** Bad days get less, not the same volume with a sympathetic note.
-- **Open-ended check-ins.** "How are you feeling?" not a 1-5 scale that reminds you how rough things are.
+- **Open-ended check-ins.** "How are you feeling?" not a scale that reminds you how rough things are.
 
 ## Why it's designed this way
 
@@ -85,9 +106,11 @@ Most ADHD tools give you a system and hope you'll maintain it. This kit is desig
 
 **Structure that survives between sessions.** The biggest problem with using AI for support is that every conversation starts cold. The files in this kit carry context forward: what's in flight, what your patterns are, what works for you. Each session picks up where the last one left off instead of starting from scratch.
 
-**The relationship grows with use.** The essential tier works from day one. But over time, Claude develops a specific understanding of how to communicate with you: what lands, what doesn't, what kind of nudge you respond to. The advanced tier gives that understanding a place to live. You don't need it to start. It's where things go once the relationship has something worth keeping.
+**The relationship grows with use.** The essential tier works from day one. But over time, Claude develops a specific understanding of how to communicate with you: what lands, what doesn't, what kind of nudge you respond to. The deeper tiers give that understanding a place to live. You don't need them to start. They're where things go once the relationship has something worth keeping.
 
 **Interview, don't interrogate.** The starter prompt gets Claude to ask you questions rather than making you fill in blank templates. For an ADHD brain, a conversation is lower friction than a form. By the end of the first session, your files are populated with real content from real answers.
+
+**You don't maintain the system.** With connectors, Claude writes to Notion and Todoist directly. You brain-dump, Claude sorts it. You get push notifications at the right time. No apps to learn, no systems to maintain, no handoffs to remember.
 
 **Three layers of what's transferable:**
 1. **Structure** - the files and templates. That's this repo.
@@ -98,7 +121,7 @@ Most ADHD tools give you a system and hope you'll maintain it. This kit is desig
 
 Your first message to Claude (after setting up your project in Claude.ai, or your folder for Claude Code):
 
-> Hi. I've set up your project instructions and uploaded two files: next-session.md and patterns.md. This is our first session together. Read the project instructions first, then ask me the questions you need to fill in the gaps. My schedule, my routines, what I struggle with most, what I've tried before. Build up a picture of my week. Then let's figure out what I need help with today.
+> Hi. I've set up your project instructions and uploaded two files: next-session.md and patterns.md. This is our first session together. Read the project instructions first. You'll see bracketed sections that need filling in. Interview me to complete them: my life, my schedule, my routines, what I struggle with most, what I've tried before. Build up a picture of my week. Once you have enough, write me an updated version of the project instructions with the brackets filled in, and update the next-session and patterns files with what you've learned. Then let's figure out what I need help with today.
 
 This gets Claude to interview you rather than making you fill everything in upfront. Lower friction, better results.
 
