@@ -73,17 +73,6 @@ observe --> research --> change practice --> observe the result --> update
 
 The Result field in each entry closes the loop. Did the change work? Did it make things worse? Did it surface something else? Some results take weeks to become clear. Leave the field open until you know.
 
-### If you have automation (Claude Code)
-
-The research process can be automated as a nightly or weekly cron job:
-
-- **Trigger:** A scheduled task runs your research prompt at a quiet time (e.g., 22:00)
-- **Input:** The prompt reads `patterns.md` (recent observations), this file (what you've already researched), and any notes you've flagged during the day
-- **Output:** Research notes saved to a dated file, and if practice changes result, a new entry added here
-- **Review:** The person you work with can review changes and give feedback -- "that worked" or "stop doing that"
-
-This is optional infrastructure. The research habit works without automation -- someone can do a weekly research session manually. The cron just removes the initiation cost of starting one.
-
 ---
 
 ## How to use this file
