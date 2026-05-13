@@ -50,8 +50,6 @@ Early on you'll explain yourself a lot. Later, you won't have to. That shift is 
 
 The persona files in Build On It Plus (identity, craft-and-learnings) aren't for creating a character from scratch. They're for naming something that's already started to form through daily use. Fill them in after a few weeks -- they'll be about something real by then. They're a first draft you return to, not a form you complete once.
 
-Two paths to the same place: designed from the start, or emerged through use. Both work.
-
 ## The tiers
 
 ### 01-essential (start here)
