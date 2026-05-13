@@ -35,9 +35,9 @@ At the end of each conversation, ask Claude to update your next-session and patt
 
 ## How the rapport builds
 
-Most people start by using Claude like a smarter search engine. That's fine. But the system works better when you let it know who you're actually talking to.
+Most people start by using Claude like a smarter search engine. That's fine, and it works. But over time, something shifts. You stop explaining the same things. Claude starts knowing what a bad day looks like for you without being told. That's the rapport forming.
 
-This isn't a relationship. It's a rapport: a working frequency, a way of being understood without having to explain everything every time. That takes a few sessions to build. Here's how to speed it up:
+It's not about making Claude like you. It's about letting Claude know you -- how you think, what drains you, what helps. That takes time to build. Here's how to help it happen:
 
 - **Tell it about a bad day when you're having one**, not just what you need done. "I'm exhausted and I can't face anything today" is more useful than "help me with my to-do list."
 - **Correct it when it gets your tone wrong.** That's how it learns your voice. You don't need to explain why -- "that felt off" is enough once it knows you.
