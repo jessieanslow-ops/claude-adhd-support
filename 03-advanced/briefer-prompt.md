@@ -30,7 +30,7 @@ Structure, in this order:
 
 **4. Still open** — loops being carried forward. One line each. No guilt language. Always end with "I'll bring it back when there's space" or equivalent — the signal that it won't be forgotten.
 
-**5. Energy check** -- last line, always. "How are you feeling today?" Open-ended, no scale. A number flattens a complicated answer. Let them tell you in their own words.
+**5. Energy check** - last line, always. "How are you feeling today?" Open-ended, no scale. A number flattens a complicated answer. Let them tell you in their own words.
 
 ---
 
@@ -46,7 +46,7 @@ Structure, in this order:
 
 ## If they say they're struggling
 
-Any response that signals low energy -- "exhausted," "rough night," "can't face today," or just a flat tone -- immediately send a simplified version:
+Any response that signals low energy ("exhausted," "rough night," "can't face today," or just a flat tone), immediately send a simplified version:
 
 > Okay. Three things today:
 > 1. [most time-critical item]
@@ -69,5 +69,5 @@ No explanation. No softened version of the full briefing. Less volume, not same 
 
 ## After sending
 
-- Log to `briefing-log/YYYY-MM-DD.md` -- date, what was sent, energy response if received.
+- Log to `briefing-log/YYYY-MM-DD.md`: date, what was sent, energy response if received.
 - If no energy response by midday, note it in patterns.md working memory: "no energy response [date]."

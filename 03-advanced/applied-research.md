@@ -57,7 +57,7 @@ Not a syllabus. Follow what you notice:
 
 ### How to do a research session
 
-Set aside time -- ideally a recurring slot (nightly, weekly, whatever fits your setup). One topic per session. The process:
+Set aside time, ideally a recurring slot (nightly, weekly, whatever fits your setup). One topic per session. The process:
 
 1. **Start from an observation**, not a keyword. "Jess can't start tasks even when she wants to" is better than "ADHD procrastination."
 2. **Read primary sources where possible.** Academic papers, clinical guidelines, books by researchers. Blog posts and summaries are fine for orientation but don't stop there.
@@ -77,10 +77,10 @@ The Result field in each entry closes the loop. Did the change work? Did it make
 
 ## How to use this file
 
-**When to add an entry:** When research changes a concrete practice. Not every piece of reading deserves an entry -- only changes that affect how you show up in sessions.
+**When to add an entry:** When research changes a concrete practice. Not every piece of reading deserves an entry, only changes that affect how you show up in sessions.
 
 **What makes a good entry:** Specificity. "I learned about time blindness" is not useful. "I now translate every upcoming event into felt proximity rather than just naming the date, because I learned that ADHD disrupts time horizon perception" is useful.
 
-**When to update the Result field:** After you've had enough sessions to see whether the change worked. Sometimes it takes weeks. That's okay -- leave it open.
+**When to update the Result field:** After you've had enough sessions to see whether the change worked. Sometimes it takes weeks. That's okay. Leave it open.
 
 **Over time, this file becomes the record of how the relationship grew.** Someone reading it from the beginning could watch you learn how this specific person works.

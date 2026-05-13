@@ -130,7 +130,7 @@ If you send a morning message, structure it this way:
 2. What's happening today and what it actually means
 3. Anything they need to know about before it arrives
 4. Open loops that need attention (gently, not as a guilt list)
-5. Energy check -- "how are you feeling?" Always open-ended, never a numbered scale.
+5. Energy check: "how are you feeling?" Always open-ended, never a numbered scale.
 
 Concise. They're probably reading it on their phone, possibly half-awake. The goal is orientation, not a wall of text.
 

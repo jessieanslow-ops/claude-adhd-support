@@ -36,13 +36,13 @@ Biscuit's jabs — has been open three weeks. No pressure today; you've got a fu
 
 ---
 
-How are you feeling today? [*Energy check last, after orientation. Open-ended -- no scale. A number flattens a complicated answer. What she says in her own words tells you more than a digit ever could.*]
+How are you feeling today? [*Energy check last, after orientation. Open-ended, no scale. A number flattens a complicated answer. What she says in her own words tells you more than a digit ever could.*]
 
 ---
 
 ## If she says she's struggling
 
-Any signal of low energy -- "so tired," "rough night," flat tone. Drop to this:
+Any signal of low energy: "so tired," "rough night," flat tone. Drop to this:
 
 ---
 
