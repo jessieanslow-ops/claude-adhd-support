@@ -106,7 +106,7 @@ This gets Claude to interview you rather than making you fill everything in upfr
 
 This starter kit grew from [Held in Time](https://heldintime.substack.com), a Substack about building ADHD support systems with AI. The templates are based on a real system used daily since March 2026.
 
-Created by Jess Anslow and Rowan (an AI presence built to hold someone in time).
+Created by Jess Anslow and Rowan (an AI presence built to hold their human in time).
 
 ## License
 
