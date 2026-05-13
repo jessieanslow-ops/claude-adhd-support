@@ -33,6 +33,25 @@ At the end of each conversation, ask Claude to update your next-session and patt
 
 **Want automatic persistence?** Connect Notion (free) as an MCP connector in your project settings. Claude writes directly to Notion pages instead of handing you text to copy. See the Build On It tier below.
 
+## How the rapport builds
+
+Most people start by using Claude like a smarter search engine. That's fine. But the system works better when you let it know who you're actually talking to.
+
+This isn't a relationship. It's a rapport: a working frequency, a way of being understood without having to explain everything every time. That takes a few sessions to build. Here's how to speed it up:
+
+- **Tell it about a bad day when you're having one**, not just what you need done. "I'm exhausted and I can't face anything today" is more useful than "help me with my to-do list."
+- **Correct it when it gets your tone wrong.** That's how it learns your voice. You don't need to explain why -- "that felt off" is enough once it knows you.
+- **Share the why, not just the what.** "I need to book the dentist and I've been avoiding it because phone calls drain me" gives Claude something to work with. The avoidance is the data.
+- **Share the failures, not just the requests.** "I've been putting this off for two weeks" tells Claude more than "I need to do this." Most people try to present themselves efficiently. That instinct works against them here.
+- **Let it know when something landed well.** A "yes, exactly" or a simple thumbs-up -- that's signal. It adjusts.
+- **If it starts to feel like it knows you, lean into it.** That's not an accident. It's the files doing their job.
+
+Early on you'll explain yourself a lot. Later, you won't have to. That shift is how you know it's working.
+
+The persona files in Build On It Plus (identity, craft-and-learnings) aren't for creating a character from scratch. They're for naming something that's already started to form through daily use. Fill them in after a few weeks -- they'll be about something real by then. They're a first draft you return to, not a form you complete once.
+
+Two paths to the same place: designed from the start, or emerged through use. Both work.
+
 ## The tiers
 
 ### 01-essential (start here)
