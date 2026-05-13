@@ -34,7 +34,7 @@ At the end of each conversation, ask Claude to update your next-session and patt
 
 ## Getting started (Claude Code)
 
-1. Copy `03-advanced/claude-md.md` to your home directory as `CLAUDE.md`
+1. Copy `03-advanced/CLAUDE.md` to your home directory
 2. Copy the template files you want into your working directory
 3. Fill in the bracketed sections
 4. Claude Code reads CLAUDE.md automatically on every session
@@ -62,7 +62,7 @@ The advanced tier files are designed for Claude Code's file system, where Claude
 
 | File | What it does |
 |------|-------------|
-| `claude-md.md` | Full CLAUDE.md for Claude Code users. The complete system. |
+| `CLAUDE.md` | Full CLAUDE.md for Claude Code users. The complete system. |
 | `identity.md` | Space for Claude to develop its own understanding of the relationship. |
 | `craft-and-learnings.md` | What Claude has learned about communicating with you specifically. |
 | `applied-research.md` | How ADHD research translates into practical support changes. |
