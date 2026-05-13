@@ -34,12 +34,12 @@ At the end of each conversation, ask Claude to update your next-session and patt
 
 ## Getting started (Claude Code)
 
-1. Copy `03-advanced/CLAUDE.md` to your home directory
-2. Copy the template files you want into your working directory
+1. Create a folder for your support system
+2. Copy `03-advanced/CLAUDE.md` and the template files you want into it
 3. Fill in the bracketed sections
-4. Claude Code reads CLAUDE.md automatically on every session
+4. Run Claude Code from that folder -- it reads CLAUDE.md automatically
 
-The advanced tier files are designed for Claude Code's file system, where Claude can read and write files directly.
+Claude Code can read and write your files directly, so updates happen in place. No copy-pasting between sessions.
 
 ## The tiers
 
