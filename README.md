@@ -45,30 +45,30 @@ Claude Code can read and write your files directly, so updates happen in place. 
 
 ### 01-essential (start here)
 
-| File | What it does |
-|------|-------------|
-| `project-instructions.md` | Core identity and rules. Tells Claude who you are and how to support you. |
-| `next-session.md` | Handoff notes between conversations. What's in flight, what's coming up. |
-| `patterns.md` | Where Claude learns your rhythms. Grows over time into a picture of how you actually live. |
+| File | Who fills it in | What it does |
+|------|----------------|-------------|
+| `project-instructions.md` | You | Core identity and rules. Tells Claude who you are and how to support you. |
+| `next-session.md` | Claude | Handoff notes between conversations. What's in flight, what's coming up. |
+| `patterns.md` | Claude | Where Claude learns your rhythms. Grows over time into a picture of how you actually live. |
 
 ### 02-build-on-it (add when ready)
 
-| File | What it does |
-|------|-------------|
-| `calendar-context.md` | What events actually mean for your life -- not just dates, but logistics and knock-on effects. |
-| `todo.md` | Running task list with gentle escalation. Items get nudged, not nagged. |
+| File | Who fills it in | What it does |
+|------|----------------|-------------|
+| `calendar-context.md` | Both | What events actually mean for your life -- not just dates, but logistics and knock-on effects. |
+| `todo.md` | Both | Running task list with gentle escalation. Items get nudged, not nagged. |
 
 ### 03-advanced (for power users)
 
-| File | What it does |
-|------|-------------|
-| `CLAUDE.md` | Full CLAUDE.md for Claude Code users. The complete system. |
-| `identity.md` | Space for Claude to develop its own understanding of the relationship. |
-| `craft-and-learnings.md` | What Claude has learned about communicating with you specifically. |
-| `applied-research.md` | How ADHD research translates into practical support changes. |
-| `briefer-prompt.md` | Instructions for generating a structured morning briefing. |
-| `briefing-example.md` | Annotated sample briefing showing every design choice. |
-| `recorder-prompt.md` | End-of-day review process for updating all files. |
+| File | Who fills it in | What it does |
+|------|----------------|-------------|
+| `CLAUDE.md` | You | Full CLAUDE.md for Claude Code users. The complete system. |
+| `identity.md` | Claude | Space for Claude to develop its own understanding of the relationship. |
+| `craft-and-learnings.md` | Claude | What Claude has learned about communicating with you specifically. |
+| `applied-research.md` | Claude | How ADHD research translates into practical support changes. |
+| `briefer-prompt.md` | Reference | Instructions for generating a structured morning briefing. |
+| `briefing-example.md` | Reference | Annotated sample briefing showing every design choice. |
+| `recorder-prompt.md` | Reference | End-of-day review process for updating all files. |
 
 ## The principles
 
