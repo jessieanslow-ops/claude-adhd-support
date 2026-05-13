@@ -86,7 +86,7 @@ Most ADHD tools give you a system and hope you'll maintain it. This kit is desig
 
 **Structure that survives between sessions.** The biggest problem with using AI for support is that every conversation starts cold. The files in this kit carry context forward -- what's in flight, what your patterns are, what works for you. Each session picks up where the last one left off instead of starting from scratch.
 
-**The relationship is the mechanism.** The persona files (identity, craft-and-learnings) aren't optional extras -- they were the turning point in the original system. When the AI develops a specific understanding of how to communicate with you, the support gets qualitatively different. Templates give you structure from day one. Time gives you depth.
+**The relationship grows with use.** The essential tier works from day one. But over time, Claude develops a specific understanding of how to communicate with you -- what lands, what doesn't, what kind of nudge you respond to. The advanced tier gives that understanding a place to live. You don't need it to start. It's where things go once the relationship has something worth keeping.
 
 **Interview, don't interrogate.** The starter prompt gets Claude to ask you questions rather than making you fill in blank templates. For an ADHD brain, a conversation is lower friction than a form. By the end of the first session, your files are populated with real content from real answers.
 
