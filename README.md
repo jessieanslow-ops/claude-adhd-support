@@ -96,7 +96,7 @@ Most ADHD tools give you a system and hope you'll maintain it. This kit is desig
 
 ## The starter prompt
 
-Your first message to Claude (after setting up the project):
+Your first message to Claude (after setting up your project in Claude.ai, or your folder for Claude Code):
 
 > Hi. I've set up your project instructions and uploaded two files -- next-session.md and patterns.md. This is our first session together. Read the project instructions first, then ask me the questions you need to fill in the gaps -- my schedule, my routines, what I struggle with most, what I've tried before. Build up a picture of my week. Then let's figure out what I need help with today.
 
