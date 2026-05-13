@@ -23,12 +23,11 @@ Claude reads these at the start of every conversation. Over time, it learns your
 ## Getting started (Claude.ai)
 
 1. Create a new **Project** in Claude.ai
-2. Open `01-essential/project-instructions.md` and fill in the bracketed sections about yourself
-3. Paste the completed text into your project's **Instructions** box
-4. Upload `01-essential/next-session.md` and `01-essential/patterns.md` as **Project Knowledge** files
-5. Start your first conversation with the prompt in `starter-prompt.txt`
+2. Paste the contents of `01-essential/project-instructions.md` into your project's **Instructions** box -- leave the bracketed sections as they are
+3. Upload `01-essential/next-session.md` and `01-essential/patterns.md` as **Project Knowledge** files
+4. Start your first conversation with the prompt in `starter-prompt.txt`
 
-That's it. Three files and you're running.
+Claude will read the instructions, see the gaps, and interview you to fill them in. By the end of that first conversation, the files have real content -- your schedule, your patterns, what you struggle with -- without you having to stare at a blank template.
 
 At the end of each conversation, ask Claude to update your next-session and patterns files. Copy the updates back into your project knowledge. Each session gets smarter.
 
