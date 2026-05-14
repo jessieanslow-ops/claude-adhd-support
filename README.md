@@ -48,7 +48,7 @@ It's not about making Claude like you. It's about letting Claude know you -- how
 
 Early on you'll explain yourself a lot. Later, you won't have to. That shift is how you know it's working.
 
-The persona files in Build On It Plus (identity, craft-and-learnings) aren't for creating a character from scratch. They're for naming something that's already started to form through daily use. Fill them in after a few weeks -- they'll be about something real by then. They're a first draft you return to, not a form you complete once.
+The persona files in Build On It (identity, craft-and-learnings) aren't for creating a character from scratch. They're for naming something that's already started to form through daily use. Fill them in after a few weeks -- they'll be about something real by then. They're a first draft you return to, not a form you complete once.
 
 ## The tiers
 
@@ -62,14 +62,14 @@ Claude learns who you are. Three files, one conversation to set up.
 | `next-session.md` | Claude | Handoff notes between conversations. What's in flight, what's coming up. |
 | `patterns.md` | Claude | Where Claude learns your rhythms. Grows over time into a picture of how you actually live. |
 
-### 02-build-on-it (connect and automate)
+### 02-build-on-it (connect and deepen)
 
-Claude acts for you. Connect free MCP tools and Claude handles persistence, tasks, and schedule awareness without you maintaining anything.
+Claude connects to your actual data and the relationship deepens. One tier because the connection enables the depth: the deeper files need somewhere to live, and the skills need the deeper files to be useful.
 
 **Connect these (all free):**
 - **Notion** - Claude reads and writes your support documents directly. No copy-pasting between sessions.
 - **Todoist** - Claude adds tasks with due dates. You get push notifications. You never open Todoist yourself.
-- **Google Calendar** - Claude checks what's on today and what's coming up.
+- **Google Calendar** - Claude checks what's on and what's coming.
 
 **Skills (add to your project instructions):**
 
@@ -81,9 +81,7 @@ Claude acts for you. Connect free MCP tools and Claude handles persistence, task
 
 The three skills form a day cycle: orient (silent arrival) -> briefing (what's today) -> roundup (capture and close).
 
-### 03-build-on-it-plus (deeper relationship)
-
-More context, more nuance. All files work as Notion pages or local markdown.
+**Deeper files (live in Notion or as local markdown):**
 
 | File | Who fills it in | What it does |
 |------|----------------|-------------|
@@ -97,7 +95,7 @@ More context, more nuance. All files work as Notion pages or local markdown.
 | `briefing-example.md` | Reference | Annotated sample briefing showing every design choice. |
 | `recorder-prompt.md` | Reference | End-of-day review process for updating all files. |
 
-### 04-advanced (coming soon)
+### 03-advanced (not yet in this repo)
 
 Always-on system. Claude reaches out to you, not waiting for you to show up.
 
@@ -105,7 +103,7 @@ This tier covers: running Claude Code on a dedicated machine (old laptop, VPS), 
 
 The jump from "Claude helps when I show up" to "Claude is running whether I show up or not."
 
-*A separate guide for this tier will be released at a later date.*
+*A separate guide for this tier will be released separately.*
 
 ## The principles
 
