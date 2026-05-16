@@ -20,6 +20,14 @@ You give Claude three things:
 
 Claude reads these at the start of every conversation. Over time, it learns your patterns and gets better at supporting you. Not because the AI is magic, but because the files you build together capture what works.
 
+The files do two different things, and you need both.
+
+**Memory** captures what happened - what's in flight, what's coming up, what you just told it. Retrieved on demand, updated after each session.
+
+**Identity** shapes how Claude shows up - who you are, how you communicate, what support looks like for your brain. Identity files are ambient: always present, not gated behind a search. The AI doesn't look them up; they're just how it thinks about you.
+
+Memory without identity is a reminder system that doesn't know you. Identity without memory is warmth without context.
+
 ## Getting started
 
 1. Create a new **Project** in Claude.ai
