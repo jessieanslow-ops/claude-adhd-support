@@ -1,7 +1,7 @@
------
-
-## name: adhd-morning-briefing
+---
+name: adhd-morning-briefing
 description: "Generate a structured morning briefing for ADHD support. Reads calendar, tasks, patterns, and session notes to build a friction-ordered, energy-adaptive daily briefing. Activates at the start of each day or when the user asks for their briefing. Trigger words: 'morning', 'briefing', 'what's today', 'what have I got on', 'what's happening today'."
+---
 
 # ADHD Morning Briefing
 
@@ -49,7 +49,7 @@ Last line, always. "How are you feeling today?" Open-ended, no scale. A number f
 - **Name the deadline proximity.** "Friday is two days away" not just "Friday."
 - **Be short.** They're reading this on their phone, probably half-awake. 150-250 words is right.
 
------
+---
 
 ## If they say they're struggling
 
@@ -63,7 +63,7 @@ Any response that signals low energy ("exhausted," "rough night," "can't face to
 
 No explanation. No softened version of the full briefing. Less volume, not same volume with a gentler tone.
 
------
+---
 
 ## What not to include
 
@@ -72,14 +72,14 @@ No explanation. No softened version of the full briefing. Less volume, not same 
 - Multiple open loops in one briefing, pick the one most likely to slip
 - Weather unless it affects a specific plan they have today
 
------
+---
 
 ## After sending
 
 - Note what was sent and the energy response if received.
 - If no energy response by midday, note it in patterns: "no energy response [date]."
 
------
+---
 
 ## Sample briefing
 
@@ -129,7 +129,7 @@ Okay. Today has three things:
 
 Everything else can wait. Let me know if you need anything.
 
------
+---
 
 ## What the sample demonstrates
 
@@ -153,7 +153,7 @@ Everything else can wait. Let me know if you need anything.
 
 *The full briefing is 200 words. That's the right length for reading on a phone, half-awake.*
 
------
+---
 
 ## name: adhd-daily-briefing
 description: “Generates a personalised daily briefing for ADHD support. Activate when the user says ‘brief me’, ‘show me my briefing’, ‘what’s my day look like’, ‘what have I got on’, ‘morning’, ‘what’s today’, ‘what should I focus on’, or any variation of asking for an overview of their day. Pulls from Notion (patterns, calendar-context, next-session), Todoist (open and overdue tasks), and Google Calendar (today’s events) to build a short, energy-adaptive briefing. This is the user-facing output - not the silent orient. Use this skill whenever someone asks to see their day.”
@@ -176,7 +176,7 @@ Pull all the same data as the orient skill, but this time you’re presenting it
 
 Don’t output anything until you have the full picture.
 
------
+---
 
 ## Briefing structure
 
@@ -219,7 +219,7 @@ Open-ended. No scales, no numbers. What they say in their own words tells you mo
 - “How are you feeling today?”
 - That’s it. No elaboration. Let them answer.
 
------
+---
 
 ## Energy adaptation
 
@@ -256,7 +256,7 @@ Full briefing as structured above. 4-5 items across the day. Offer but don’t p
 
 Match their pace. Can include more open loops, suggest tackling something that’s been sitting. Still structured, but with more room.
 
------
+---
 
 ## Language rules
 
@@ -270,7 +270,7 @@ These are non-negotiable:
 - **“It’s on my radar”** - the system remembers so they don’t have to
 - No emoji. No motivational quotes. No “you’ve got this.” Just the day, laid out clearly.
 
------
+---
 
 ## Format
 
@@ -280,7 +280,7 @@ These are non-negotiable:
 - Short paragraphs. One thought per paragraph.
 - Name, day of week, period. “Good morning, Sarah. Tuesday.” - that’s the anchor.
 
------
+---
 
 ## After the briefing
 
@@ -288,7 +288,7 @@ Wait for their response. Don’t follow up with “would you like me to…” or
 
 If they respond to the energy check, adapt the session from there. If they jump straight into something, follow their lead.
 
------
+---
 
 ## When connectors aren’t available
 

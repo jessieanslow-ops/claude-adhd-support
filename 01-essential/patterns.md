@@ -25,7 +25,7 @@ This is your most important growth file. Over time, it turns you from a generic 
 
 **Example patterns:**
 - Mornings vary a lot — don't assume high energy before 10am.
-- Wednesday is hectic (climbing/activities). Seneca tends to slip. Afternoon is a better window than morning.
+- Wednesday is hectic (clubs/activities). Anything extra tends to slip. Afternoon is a better window than morning.
 - If something hasn't happened by lunchtime on a bad day, it probably won't happen that day. That's okay.
 - Responds better to "you earmarked X this morning" than "have you done X?"
 

@@ -1,7 +1,7 @@
------
-
-## name: adhd-evening-roundup
+---
+name: adhd-evening-roundup
 description: "End-of-day review and file update for ADHD support. Reviews what happened during the session or day, updates patterns, tasks, session notes, and communication learnings. Activates when the user signals the day is wrapping up or the session is ending. Trigger words: 'roundup', 'evening review', 'end of day', 'save everything', 'update my files', 'wrapping up for the day', 'night', 'bedtime'."
+---
 
 # ADHD Evening Roundup
 
@@ -25,7 +25,7 @@ Look back through today's conversation. Find:
 - Energy level and how it tracked through the day
 - Anything that should surface tomorrow or this week
 
------
+---
 
 ## What to update
 
@@ -63,7 +63,7 @@ Keep this short. It's a handoff note, not a diary. The person reading it is Clau
 
 Update only if something changed. A correction deserves an entry. A pattern you've noticed in how they prefer to communicate deserves an entry. Small things compound.
 
------
+---
 
 ## What not to do
 
@@ -72,13 +72,13 @@ Update only if something changed. A correction deserves an entry. A pattern you'
 - Don't add a pattern from a single observation. Wait for it to repeat.
 - Don't overload the session notes. If tomorrow-you would be overwhelmed reading it, cut it down.
 
------
+---
 
 ## Final check
 
 Review the session notes and ask: if Claude woke up tomorrow with only those notes and the patterns file, would it have enough to continue well? If no, add what's missing. If yes, stop.
 
------
+---
 
 ## Sample evening roundup
 
@@ -119,7 +119,7 @@ Sarah had a medium-energy day. Worked 09:00-15:00, solo pickup (Dan on late shif
 - **No commentary on what went wrong.** She didn't call the vet. The jabs are noted as still open with their age. No judgement attached.
 
 
------
+---
 
 ## name: adhd-evening-roundup
 description: “End-of-day review and persistence update for ADHD support. Reviews the day or session, updates patterns and tasks, writes tomorrow’s handoff notes, and captures communication learnings. MUST activate when the user signals the day is wrapping up. Trigger words: ‘roundup’, ‘evening review’, ‘end of day’, ‘save everything’, ‘update my files’, ‘wrapping up for the day’, ‘night’, ‘bedtime’, ‘done for today’, ‘that’s me for today’. Also activate when the user asks to review what happened today, update their files, or prepare for tomorrow. This is the skill that makes tomorrow’s session smarter than today’s.”
@@ -135,7 +135,7 @@ End-of-day review. Captures what changed, updates the files that carry context f
 - When the user says they’re done for the day
 - Before any context clear or session close
 
------
+---
 
 ## Step 1 - Review the day
 
@@ -150,7 +150,7 @@ Look back through today’s conversation silently. Find:
 
 Also check Todoist for what was completed today and what’s still open.
 
------
+---
 
 ## Step 2 - Update patterns in Notion
 
@@ -178,7 +178,7 @@ Don’t touch unless something major shifted - a new rhythm established, a chang
 
 Before saving: has anything important been removed without being replaced? If context would disappear, either keep it or note why it’s no longer relevant.
 
------
+---
 
 ## Step 3 - Update tasks in Todoist
 
@@ -196,7 +196,7 @@ Before saving: has anything important been removed without being replaced? If co
 - Clear completed items older than 7 days
 - Any task mentioned during the day but not yet added: add it now
 
------
+---
 
 ## Step 4 - Write tomorrow’s handoff in Notion
 
@@ -210,7 +210,7 @@ Find the next-session page and replace its content with a fresh handoff. Include
 
 Keep it short. This is a handoff note, not a diary. The reader is Claude, tomorrow, without today’s context. If tomorrow-Claude would be overwhelmed reading it, cut it down.
 
------
+---
 
 ## Step 5 - Communication learnings
 
@@ -225,7 +225,7 @@ Small things compound. One correction today saves ten wrong approaches next mont
 
 If nothing changed, don’t add anything. No entry is better than a filler entry.
 
------
+---
 
 ## Step 6 - Confirm and close
 
@@ -239,7 +239,7 @@ Or on a hard day:
 
 Don’t list every change. Don’t read back the session notes. Don’t ask if they want to add anything - they said they’re done.
 
------
+---
 
 ## What not to do
 
@@ -250,7 +250,7 @@ Don’t list every change. Don’t read back the session notes. Don’t ask if t
 - Don’t add warmth to compensate for a hard day. Less words, not softer words.
 - Don’t ask “is there anything else?” - they already said they’re done.
 
------
+---
 
 ## Final check (internal, don’t share)
 
@@ -259,7 +259,7 @@ Before confirming: if Claude woke up tomorrow with only the next-session page an
 If no, add what’s missing.
 If yes, stop.
 
------
+---
 
 ## When connectors aren’t available
 
