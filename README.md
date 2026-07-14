@@ -24,10 +24,10 @@ It's built on two things, and you need both:
 
 Illustrated step-by-step guides are coming at [jessanslow.com](https://jessanslow.com). The short version:
 
-1. **Create a Project in Claude** (claude.ai or the app) and paste the contents of `project-instructions.md` into the project's **Instructions** box, leaving the bracketed sections as they are - Claude fills those in itself later.
-2. **Connect Notion.** In Claude's settings, find connectors and connect your Notion account. Then, in Notion, create a single page called **Claude's memory** and share it with the Claude connection (page menu, then connections). This share step is the one people miss - if Claude ever says it can't see your pages, this is almost always why.
-3. **Add `notion-seeds.md` to your project's knowledge.** It tells Claude what pages to build. One upload; you never touch it again.
-4. **Send the starter prompt** (in `starter-prompt.txt`). Claude interviews you - your life, your rhythms, what good and bad days look like, what you've tried before and what made you stop. A couple of questions at a time, like a conversation. While you talk, it creates its memory pages in Notion and hands you back your completed project instructions to paste in.
+1. **A few settings worth a minute.** In Settings → General: set what Claude should call you, and paste an adapted copy of `profile-instructions.md` into "Instructions for Claude" - it travels with you across every chat. In Settings → Capabilities: turn on memory and connector search.
+2. **Create a Project in Claude** (claude.ai or the app) and paste the contents of `project-instructions.md` into the project's **Instructions** box, leaving the bracketed sections as they are - Claude fills those in itself later.
+3. **Connect Notion.** Settings → Connectors → **Add** → **Browse connectors** → search for Notion, and approve the connection. That's the whole Notion job - you don't create or share any pages; Claude builds its own.
+4. **Add `notion-seeds.md` to your project's knowledge** (paste it in as text content, or upload the file), then **send the starter prompt** (in `starter-prompt.txt`). Claude interviews you - your life, your rhythms, what good and bad days look like, what you've tried before and what made you stop. A couple of questions at a time, like a conversation. While you talk, it creates its memory pages in Notion and hands you back your completed project instructions to paste in. When permission cards appear for Notion abilities, choose **Always allow** - that's what lets Claude keep its pages updated quietly from then on.
 
 By the end of that first conversation the system exists and is already personal. The interview ends with your first brain-dump - everything currently swirling around your head - so the loop has worked once before you close the chat. Next morning, ask "where am I at?" and it answers.
 
@@ -39,7 +39,7 @@ The whole point is that there's nothing to learn:
 
 - **Dump.** Message anything, any time, from any device. Half-thoughts and thought-spaghetti are fine - sorting is Claude's job, not yours.
 - **Ask "where am I at?"** Get the organised picture: in flight, carried forward, coming up, recent wins. Easiest things first - the hardest thing is never at the top.
-- **Answer the energy check honestly.** On a rough day the system offers less, not the same amount with a sympathetic tone.
+- **Take the check-in when a day needs one.** Not "how are you feeling?" - that question goes blank exactly when it matters. Five small concrete questions instead (body, tank, brain, sensory, what's sitting on you), one at a time, one-word answers fine. Rough answers mean the system offers less, not the same amount with a sympathetic tone.
 - **Nothing rots silently.** Something a few days old gets mentioned in passing. A week old, it's flagged plainly. Two weeks old, Claude brings it to you and you work it out together - do it, park it, or drop it. Parked is a decision, not a failure.
 
 And if you disappear for a month? Nothing bad happens. No streaks, no guilt. Come back, ask "where am I at?", carry on. That's the point of it.
@@ -80,7 +80,7 @@ The kit is complete as it is. These extend it, separately, and each will get its
 
 ## A note on Notion and your data
 
-Your memory pages live in your own Notion account, under one page you created and shared. Claude reads and writes only what's shared with it. If you ever walk away, the pages are yours - Notion exports to markdown, and nothing in this kit locks you in. If you'd rather your files never left your own computer at all, that's exactly what the own-your-files add-on will be for.
+Your memory pages live in your own Notion account, in plain view - you can read every word Claude writes. Claude connects with your access level to the workspace you approve (Notion's consent screen puts it as respecting your page permissions and acting on your behalf), and in practice the kit has it work only in its own pages. If you'd rather keep a hard wall between Claude and an existing Notion life, a free second Notion account just for the kit does it cleanly. If you ever walk away, everything exports - Notion pages become plain markdown, and nothing in this kit locks you in. If you'd rather your files never left your own computer at all, that's exactly what the own-your-files add-on will be for.
 
 ## Why it's designed this way
 
